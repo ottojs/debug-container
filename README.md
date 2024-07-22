@@ -1,10 +1,10 @@
-# Node Boilerplate
+# Debug Container
 
-Boilerplate for building Node.js apps
+Helps debug deployments in Kubernetes and others
 
 # One-line Jumpstart Install
 
-`git clone git@github.com:ryanlelek/node-boilerplate.git && cd ./node-boilerplate && rm -rf ./.git && git init && cd ../;`
+`git clone git@github.com:ottojs/debug-container.git && cd ./debug-container && rm -rf ./.git && git init && cd ../;`
 
 # Examples
 

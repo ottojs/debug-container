@@ -1,7 +1,7 @@
 {
-  "name": "node-boilerplate",
+  "name": "debug-container",
   "version": "0.0.5",
-  "repository": "https://github.com/ryanlelek/node-boilerplate.git",
+  "repository": "https://github.com/ottojs/debug-container.git",
   "private": true,
   "engines": {
     "node": ">=20.15.1",

@@ -1,8 +1,8 @@
 #!/usr/bin/make
 
 VERSION = $(shell cat package.json | jq .version | tr -d '"')
-DOCKER_USER  := ryanlelek
-DOCKER_IMAGE := node-boilerplate
+DOCKER_USER  := ottojs
+DOCKER_IMAGE := debug-container
 
 # Default action if you just run "make"
 .PHONY: all
