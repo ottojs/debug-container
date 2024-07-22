@@ -1,6 +1,6 @@
 {
   "name": "debug-container",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "repository": "https://github.com/ottojs/debug-container.git",
   "private": true,
   "engines": {
