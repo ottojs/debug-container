@@ -41,7 +41,7 @@ function show_view(req, res, next) {
   res.locals._view = "index";
 
   // Add data for the view
-  res.locals.title = "MyCustomTitle";
+  res.locals.date = new Date();
 
   next();
 }
