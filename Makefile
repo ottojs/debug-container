@@ -77,7 +77,7 @@ d_build:
 .PHONY: d_run
 d_run:
 	-docker stop --time 5 $(DOCKER_IMAGE);
-	docker run --rm -d --name $(DOCKER_IMAGE) -p 3000:3000 $(DOCKER_IMAGE):$(VERSION);
+	docker run --rm -d --name $(DOCKER_IMAGE) -p 3111:3111 $(DOCKER_IMAGE):$(VERSION);
 
 .PHONY: d_stop
 d_stop:

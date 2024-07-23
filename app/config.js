@@ -7,7 +7,7 @@ var body_parser = require("body-parser");
 var method_override = require("method-override");
 
 var defaults = {
-  port: 3000,
+  port: 3111,
 };
 
 // Exports

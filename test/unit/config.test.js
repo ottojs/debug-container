@@ -48,7 +48,7 @@ describe("Config", function () {
     });
 
     describe("port", function () {
-      it("should default to 3000", function () {
+      it("should default to 3111", function () {
         var settings = {};
         config.global({
           use: function () {},
@@ -56,10 +56,10 @@ describe("Config", function () {
             settings[key] = value;
           },
         });
-        settings.should.have.property("port").and.equal(3000);
+        settings.should.have.property("port").and.equal(3111);
       });
 
-      it("should use default of 3000 when given an invalid integer", function () {
+      it("should use default of 3111 when given an invalid integer", function () {
         var settings = {};
         config.global(
           {
@@ -70,7 +70,7 @@ describe("Config", function () {
           },
           { PORT: "eighty" },
         );
-        settings.should.have.property("port").and.equal(3000);
+        settings.should.have.property("port").and.equal(3111);
       });
 
       it("should use the custom port when given an integer string", function () {

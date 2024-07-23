@@ -10,5 +10,5 @@ COPY app/ ./app/
 RUN npm install
 
 USER node
-EXPOSE 3000
+EXPOSE 3111
 CMD ["node", "server.js"]
