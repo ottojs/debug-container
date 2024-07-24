@@ -75,11 +75,11 @@ describe("Controller - Boilerplate", function () {
   });
 
   describe(".show_view()", function () {
-    it("should set res.locals._view and res.locals.title", function () {
+    it("should set res.locals._view and res.locals.date", function () {
       var res = { locals: {} };
       controller_boilerplate.show_view({}, res, function () {
         res.locals.should.have.property("_view").and.equal("index");
-        res.locals.should.have.property("title").and.equal("MyCustomTitle");
+        res.locals.should.have.property("date");
       });
     });
   });

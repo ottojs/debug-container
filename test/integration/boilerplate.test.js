@@ -65,7 +65,7 @@ describe("GET /boilerplate-view", function () {
       .get("/boilerplate-view")
       .expect("Content-Type", /html/)
       .expect(200)
-      .expect(/MyCustomTitle/)
+      .expect(/Date using EJS variables/)
       .end(done);
   });
 });
