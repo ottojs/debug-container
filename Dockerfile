@@ -7,7 +7,7 @@ COPY public ./public/
 COPY server.js ./
 COPY app/ ./app/
 
-RUN npm install
+RUN npm ci
 
 USER node
 EXPOSE 3111

@@ -7,7 +7,7 @@ steps:
   - name: test
     image: node:22.5.1-alpine3.20
     commands:
-      - npm install
+      - npm ci
       - npm test
 
 ---
@@ -19,5 +19,5 @@ steps:
   - name: test
     image: node:20.15.1-alpine3.20
     commands:
-      - npm install
+      - npm ci
       - npm test
