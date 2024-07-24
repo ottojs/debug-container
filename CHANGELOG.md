@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## next
+
+- **[EDIT]** Change from `npm install` to `npm ci`
+
 ## v0.0.2 - 2024-07-23
 
 - **[EDIT]** Changing default port from 3000 to 3111 due to conflicts on Windows
